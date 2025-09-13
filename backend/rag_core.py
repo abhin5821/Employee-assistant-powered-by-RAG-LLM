@@ -39,7 +39,7 @@ ANSWER_PROMPT = PromptTemplate.from_template(
     3.  **DO NOT** repeat information. Synthesize the key points into a brief, focused answer. Avoid verbose explanations.
     4.  If the context does not contain the answer, you MUST reply with ONLY this exact phrase: "I could not find an answer to that in the provided documents."
     5.  Focus exclusively on the information needed to answer the 'Standalone Question'. Ignore any irrelevant details in the context.
-
+    *******************************
     **Document Context:**
     {context}
 
